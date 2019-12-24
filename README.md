@@ -74,11 +74,13 @@ export default class ImportDocsComponent extends React.Component {
 ### 三、参数列表
 
 **file**
+
 |参数|类型|说明|是否必传|默认值|返回值|
 |---|---|---|---|---|---|
 |`file`|`File`|word 文件数据（即 `file` 值）|**必传**|无|无|
 
 **config**
+
 |参数|类型|说明|是否必传|默认值|返回值|
 |---|---|---|---|---|---|
 |`convertType`|`String`|word 文件数据（即 `file` 值）|非必传|`html`|无|
@@ -87,12 +89,14 @@ export default class ImportDocsComponent extends React.Component {
 |`mammothOption`|` Object`|用于设置 mammoth 自带的 options。|非必传|无|无|
 
 **config.wordTransform**
+
 |参数|类型|说明|是否必传|默认值|返回值|
 |---|---|---|---|---|---|
 |`transformSuccessFn`|`Function`|设置 word 文件转换成功后的回调，一般可能是弹框提示，插入编辑区等操作。|非必传|无|`Function({title, content})`|
 |`transformErrorFn`|`Function`|设置 word 文件转换失败后的回调，一般可能是弹框提示等操作。|非必传|无|`Function({msg})`|
 
 **config.imageTransform**
+
 |参数|类型|说明|是否必传|默认值|返回值|
 |---|---|---|---|---|---|
 |`imageUrlTransformFn`|`Function`|设置图片上传成功后数据格式。|**必传**|无|`Function(): Object`，如 `{url: 'www.demo.com'}`|
