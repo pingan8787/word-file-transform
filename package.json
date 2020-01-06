@@ -1,6 +1,6 @@
 {
   "name": "word-file-transform",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Wrod转换,word文化文件",
   "main": "index.js",
   "scripts": {
