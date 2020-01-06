@@ -1,11 +1,15 @@
 {
   "name": "word-file-transform",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wrod转换,word文化文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pingan8787/word-file-transform.git"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
