@@ -31,7 +31,7 @@
     "webpack-cli": "^3.3.10",
     "webpack-closure-compiler": "^2.1.6"
   },
-  "keywords": [],
+  "keywords": ["word", "word file transform", "word文件解析", "word文件转换"],
   "author": "wangpingan",
   "license": "ISC",
   "dependencies": {
