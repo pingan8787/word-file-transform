@@ -16,10 +16,8 @@ Word-file-transform 是基于 [mammoth.js](https://github.com/mwilliamson/mammot
 
 1. 引入 `WordFileTransform` 包
 
-暂时还没提交 npmjs，所以先从 dist 目录拷贝并引入。
-
 ```js
-import WordFileTransform from '@util/common/word-file-transform.umd.js';
+import WordFileTransform from 'word-file-transform';
 ```
 
 2. 配置需要使用的参数

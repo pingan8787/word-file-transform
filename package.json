@@ -1,8 +1,8 @@
 {
   "name": "word-file-transform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wrod转换,word文化文件",
-  "main": "index.js",
+  "main": "./dist/word-file-transform.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack"
